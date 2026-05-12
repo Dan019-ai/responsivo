@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
+    <h1>Mi Web</h1>
     <nav class="menu"> 
         <ul>
             <li> <a href="#">Inicio</a></li>
@@ -39,14 +40,23 @@
         </div>
     </section>
     <section>
+        <h2>Datos cargados desde JavaScript</h2>
+        <div class="tarjeta">
+            <h3 id="nombreProducto"></h3>
+            <p id="descripcionProducto"></p>
+            <p id="precioProducto"></p>
+        </div>
+    </section>
+    <section>
         <h2>Contacto</h2>
         <form class="formulario">
             <input type="texto" placeholder="Ingrese su nombre">
             <input type="email" placeholder="Ingrese su email">
             <textarea placeholder="Escriba un mensaje"></textarea>
-            <button> Enviar</button>
+            <button type="button" id="boton">Enviar</button>
 
         </form>
     </section>
+    <script src="scrip.js"></script>
 </body>
 </html>
