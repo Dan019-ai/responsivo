@@ -1,4 +1,4 @@
-alert("Bienvenidos");
+/*alert("Bienvenidos");
 console.log ("Hola");
 
 document.querySelector("h1").innerHTML = "My Web";
@@ -15,5 +15,5 @@ document.getElementById("precioProducto").innerHTML = "Precio: $ " + precio;
 
 document.querySelector("#boton").onclick = function(){
     document.body.style.backgroundColor = 'lightblue';
-}
+}*/
 
